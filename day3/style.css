@@ -23,7 +23,10 @@ tr,th,td{
 }
 #row1{
     background-color: rgba(106, 0, 235, 0.811);
+    text-align: center;
+    
 }
 #row2{
     background-color: rgb(223, 3, 10);
+    text-align: center;
 }
