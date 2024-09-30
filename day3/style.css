@@ -1,0 +1,29 @@
+table{
+    border: 1px solid black;
+    
+    border-style: groove;
+    border-color: rgb(19, 28, 194);
+    border-width: 10px;
+    width: 100%;
+}
+tr,th,td{
+    border: 2px solid black;
+    border-style: groove;
+    border-color: bisque;
+}
+#heading{
+   font-size: 30px;
+   color: brown;
+    margin: auto;
+    align-items: center;
+    background-color: aqua;
+    text-align: center;
+
+    
+}
+#row1{
+    background-color: rgba(106, 0, 235, 0.811);
+}
+#row2{
+    background-color: rgb(223, 3, 10);
+}
