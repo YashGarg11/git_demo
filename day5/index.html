@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="script.js" defer></script> 
+</head>
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" id="login"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" id="pass"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="return validate()">Login</button>
+                </td>
+                <td>
+                    <button type="reset">Clear</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p id="result"></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
