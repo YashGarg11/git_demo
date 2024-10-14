@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <h1>Good EDM</h1>
+    <button onclick="chanageHeader()">Change Heading</button>
+    
+    <button onclick="display()"> click here</button> -->
+    <p id="res"></p>
+    <button>click here</button>
+    
+    <script>
+        const button=document.querySelector('button');
+        button.addEventListener('click',()=>{
+            document.getElementById('res').innerHTML="updated"
+        });
+        const handlekeypress = (event) => {
+            document.getElementById('res').innerHTML = `KeyPressed ${event.target.value}`;
+          }
+          let myinput = document.getElementById('txt');
+          myinput.addEventListener('keypress', handlekeypress);
+
+        
+    </script>
+</body>
+</html>
